@@ -5,3 +5,7 @@
 .custom-color {
   color: green;
 }
+
+.text-3xl-semi {
+  @apply text-[36px] leading-[48px] font-semibold;
+}

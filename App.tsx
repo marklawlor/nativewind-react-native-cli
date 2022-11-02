@@ -10,7 +10,7 @@ const App = () => {
     <Pressable
       className="flex-1 items-center justify-center bg-white dark:bg-black"
       onPress={() => toggleColorScheme()}>
-      <Text className="custom-color dark:text-white">
+      <Text className="custom-color dark:text-white text-3xl-semi">
         {`Open up App.js to start working on your app! ${colorScheme} `}
       </Text>
     </Pressable>
