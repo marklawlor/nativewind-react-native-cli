@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-color {
-  color: green;
+.brand-color {
+  color: #333333;
 }
