@@ -13,7 +13,7 @@ const App = () => {
       <Text className="custom-color dark:text-white text-base">
         {`Open up App.js to start working on your app! ${colorScheme} `}
       </Text>
-      <Text className="custom-color dark:text-white text-custom-base">
+      <Text>
         {`Open up App.js to start working on your app! ${colorScheme} `}
       </Text>
     </Pressable>

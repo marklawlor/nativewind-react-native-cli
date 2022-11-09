@@ -4,16 +4,14 @@ module.exports = {
   content: ['App.tsx'],
   darkMode: 'class',
   theme: {
-    extend: {
-      fontSize: {
-        'custom-sm': '0.8rem',
-        'custom-base': '2rem',
-        'custom-xl': '1.25rem',
-        'custom-2xl': '1.563rem',
-        'custom-3xl': '1.953rem',
-        'custom-4xl': '2.441rem',
-        'custom-5xl': '3.052rem',
-      },
+    fontSize: {
+      sm: '0.8rem',
+      base: '2rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
     },
   },
   presets: [nativewind],
