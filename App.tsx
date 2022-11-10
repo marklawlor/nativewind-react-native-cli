@@ -2,8 +2,6 @@ import {useColorScheme} from 'nativewind';
 import React from 'react';
 import {Text, Pressable} from 'react-native';
 
-import './styles/global.css';
-
 const App = () => {
   const {colorScheme, toggleColorScheme} = useColorScheme();
   return (
